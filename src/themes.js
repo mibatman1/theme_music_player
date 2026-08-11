@@ -56,6 +56,30 @@ export const themes = [
     presenceLabel: 'at the ghat',
     accent: '#fb7185',
   },
+  {
+    id: 'gym',
+    name: 'Iron Temple',
+    tagline: 'Sweaty gym anthems — Zinda, Sultan, Lakshya & more pump tracks',
+    playlistUrl: 'https://www.youtube.com/playlist?list=PLBWZKm-dhAC7ZZ0EI-XWhwQNsvKi06hDw',
+    spotifyUrl: '',
+    ytMusicUrl: 'https://music.youtube.com/playlist?list=PLBWZKm-dhAC7ZZ0EI-XWhwQNsvKi06hDw',
+    bg: '/themes/gym/bg.webp',
+    bgFallback: '/themes/gym/bg.jpg',
+    presenceLabel: 'on the floor',
+    accent: '#38bdf8',
+  },
+  {
+    id: 'baarat',
+    name: 'Baarat Boulevard',
+    tagline: 'Dhol, sehra & shaadi bangers for the loudest night of the year',
+    playlistUrl: 'https://www.youtube.com/playlist?list=PLThTVQcJpVcPx6vSjBdirOrcHAA1Y8SJH',
+    spotifyUrl: '',
+    ytMusicUrl: 'https://music.youtube.com/playlist?list=PLThTVQcJpVcPx6vSjBdirOrcHAA1Y8SJH',
+    bg: '/themes/baarat/bg.webp',
+    bgFallback: '/themes/baarat/bg.jpg',
+    presenceLabel: 'in the baarat',
+    accent: '#f472b6',
+  },
 ]
 
 /**

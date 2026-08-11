@@ -548,5 +548,297 @@ export const tracksByTheme = {
       "title": "CHHATHI MAIYA | BEST OF SHARDA SINHA CHHATH SONGS VIDEO JUKEBOX | T-Series Hamaar Bhojpuri",
       "artist": "T-Series Hamaar Bhojpuri"
     }
+  ],
+  "gym": [
+    {
+      "id": "Ax0G_P2dSBw",
+      "youtubeId": "Ax0G_P2dSBw",
+      "title": "Zinda Lyric Video - Bhaag Milkha Bhaag|Farhan Akhtar|Siddharth Mahadevan|Prasoon Joshi",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "abiL84EAWSY",
+      "youtubeId": "abiL84EAWSY",
+      "title": "Sultan Title Song | Salman Khan, Anushka Sharma | Sukhwinder Singh, Shadab Faridi, Vishal & Shekhar",
+      "artist": "YRF"
+    },
+    {
+      "id": "puKD3nkB1h4",
+      "youtubeId": "puKD3nkB1h4",
+      "title": "Ziddi Dil Full Video | MARY KOM | Feat Priyanka Chopra | Vishal Dadlani | HD",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "k-atPa3QUis",
+      "youtubeId": "k-atPa3QUis",
+      "title": "Jiyo Re Baahubali | Baahubali 2 The Conclusion | Prabhas & Anushka Shetty | M.M.Kreem Manoj Daler",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "8DMF0U6xV78",
+      "youtubeId": "8DMF0U6xV78",
+      "title": "Lakshya Full Video - Title Track | Hrithik Roshan | Shankar Ehsaan Loy | Javed Akhtar",
+      "artist": "SonyMusicIndiaVEVO"
+    },
+    {
+      "id": "cF2yqyiJACk",
+      "youtubeId": "cF2yqyiJACk",
+      "title": "Soorma Anthem Full Video - Soorma | Diljit, Taapsee | Shankar Mahadevan | Shankar Ehsaan Loy",
+      "artist": "SonyMusicIndiaVEVO"
+    },
+    {
+      "id": "uTDMVdzIhqQ",
+      "youtubeId": "uTDMVdzIhqQ",
+      "title": "Jagga Jiteya - Full Video | URI | Vicky Kaushal & Yami Gautam | Daler Mehndi, Dee MC & Shashwat S",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "2n3iW1V-wIE",
+      "youtubeId": "2n3iW1V-wIE",
+      "title": "Jigra - Full Video | URI |  Vicky Kaushal & Yami Gautam | Siddharth B & Shashwat S",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "g62J-8nV5FI",
+      "youtubeId": "g62J-8nV5FI",
+      "title": "Challa (Main Lad Jaana) - Full Video | URI | Vicky Kaushal , Yami Gautam | Shashwat S, Romy & Vivek",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "_6Dda6gacFA",
+      "youtubeId": "_6Dda6gacFA",
+      "title": "Paintra - Video Song | Nucleya & Divine | Anurag Kashyap | Mukkabaaz",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "jFGKJBPFdUA",
+      "youtubeId": "jFGKJBPFdUA",
+      "title": "Apna Time Aayega | Gully Boy | Ranveer Singh & Alia Bhatt | DIVINE | Dub Sharma | Zoya Akhtar",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "M81wneSjQbA",
+      "youtubeId": "M81wneSjQbA",
+      "title": "Sher Aaya Sher | Gully Boy | Siddhant Chaturvedi | Ranveer Singh & Alia Bhatt | DIVINE",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "l_MyUGq7pgs",
+      "youtubeId": "l_MyUGq7pgs",
+      "title": "Malhari - Full Video Song | Bajirao Mastani | Ranveer Singh | Vishal Dadlani | Sanjay Leela Bhansali",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "WibcvWT7KQQ",
+      "youtubeId": "WibcvWT7KQQ",
+      "title": "Kaun Hain Voh - Full Video | Baahubali - The  Beginning | Prabhas | Kailash K | MM Kreem, Manoj M",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "jMfvlh0tjyo",
+      "youtubeId": "jMfvlh0tjyo",
+      "title": "Dangal - Title Track | Lyrical Video | Dangal | Aamir Khan | Pritam | Amitabh B | Daler Mehndi",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "9iIX4PBplAY",
+      "youtubeId": "9iIX4PBplAY",
+      "title": "Sanju: KAR HAR MAIDAAN FATEH Full Video Song | Ranbir Kapoor | Rajkumar Hirani",
+      "artist": "T-Series"
+    },
+    {
+      "id": "0zFoHrvbRu4",
+      "youtubeId": "0zFoHrvbRu4",
+      "title": "Dhaakad - Dangal | Aamir Khan | Pritam | Amitabh Bhattacharya | Raftaar",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "RYqJ5w-GrfM",
+      "youtubeId": "RYqJ5w-GrfM",
+      "title": "Deva Shree Ganesha - Full Video | Agneepath | Hrithik Roshan, Priyanka Chopra | Ajay - Atul",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "4nCshJBODT4",
+      "youtubeId": "4nCshJBODT4",
+      "title": "Azadi - Gully Boy| Ranveer Singh & Alia Bhatt | DIVINE | Dub Sharma | Siddhant | Zoya Akhtar",
+      "artist": "Zee Music Company"
+    },
+    {
+      "id": "y-kQN4RorPU",
+      "youtubeId": "y-kQN4RorPU",
+      "title": "Bhaag Milkha Bhaag (Rock Version)",
+      "artist": "Release - Topic"
+    },
+    {
+      "id": "yWeVII7qF3A",
+      "youtubeId": "yWeVII7qF3A",
+      "title": "Maston Ka Jhund - Full Video | Farhan Akhtar | Divya Kumar | Prasoon Joshi | Bhaag Milkha Bhaag",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "c4ZteOtHWQ0",
+      "youtubeId": "c4ZteOtHWQ0",
+      "title": "Raazi - Title Track | Full Video | Alia Bhatt | Arijit Singh | Shankar Ehsaan Loy | Gulzar",
+      "artist": "Zee Music Company"
+    }
+  ],
+  "baarat": [
+    {
+      "id": "-h3enp1vbnI",
+      "youtubeId": "-h3enp1vbnI",
+      "title": "Baari Barsi | Full Song | Band Baaja Baaraat | Ranveer Singh, Anushka Sharma | Harshdeep Kaur, Salim",
+      "artist": "YRF"
+    },
+    {
+      "id": "KMXJyrWzyKE",
+      "youtubeId": "KMXJyrWzyKE",
+      "title": "Mere Yaar Ki Shaadi Hai Song | Jimmy Shergill, Sanjana, Uday | Udit Narayan, Sonu Nigam, Alka Yagnik",
+      "artist": "YRF Music"
+    },
+    {
+      "id": "8XtXLVylOoU",
+      "youtubeId": "8XtXLVylOoU",
+      "title": "Saajanji Ghar Aaye Full Video - Kuch Kuch Hota Hai|Shah Rukh Khan,Kajol|Alka Yagnik",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "caEfgyFv4SM",
+      "youtubeId": "caEfgyFv4SM",
+      "title": "Chhote Chhote Bhaiyon Ke Bade Bhaiyya - Hum Saath Saath Hain - Bollywood Wedding Song",
+      "artist": "Rajshri"
+    },
+    {
+      "id": "1jjDs69WWUQ",
+      "youtubeId": "1jjDs69WWUQ",
+      "title": "Lal Dupatta Full Song | Mujhse Shaadi Karogi | Salman Khan,Priyanka Chopra |Alka Yagnik,Udit Narayan",
+      "artist": "T-Series"
+    },
+    {
+      "id": "9_BUZaTcozs",
+      "youtubeId": "9_BUZaTcozs",
+      "title": "Mashallah Song | Ek Tha Tiger | Salman Khan, Katrina Kaif, Shreya Ghoshal, Sajid-Wajid, Kausar Munir",
+      "artist": "YRF"
+    },
+    {
+      "id": "FdqOwsOCvuk",
+      "youtubeId": "FdqOwsOCvuk",
+      "title": "aage barati peechey band sunjay",
+      "artist": "asifyousaf122"
+    },
+    {
+      "id": "jSkBtDg-8lg",
+      "youtubeId": "jSkBtDg-8lg",
+      "title": "Full Video: Sajan Tumse Pyar | Maine Pyaar Kyun Kiya | Salmaan Khan, Sushmita Sen",
+      "artist": "T-Series"
+    },
+    {
+      "id": "6qBdQzPnw4E",
+      "youtubeId": "6qBdQzPnw4E",
+      "title": "Dil Laga Liya Maine Tumse Pyaar Karke | Dil Hai Tumhaara | Preity Zinta | Alka Yagnik, Udit Narayan",
+      "artist": "Tips Official"
+    },
+    {
+      "id": "ltiVnd5dJCI",
+      "youtubeId": "ltiVnd5dJCI",
+      "title": "Mera Yaar Dildar Bada Sona | Jaanwar | Akshay Kumar | Karisma Kapoor | Sukhwinder Singh |Gold songs",
+      "artist": "Shemaroo Filmi Gaane"
+    },
+    {
+      "id": "pTbv0D4Ksw0",
+      "youtubeId": "pTbv0D4Ksw0",
+      "title": "The Medley Song | Mujhse Dosti Karoge | Hrithik Roshan, Kareena Kapoor, Rani Mukerji, Uday Chopra",
+      "artist": "YRF Music"
+    },
+    {
+      "id": "zns53qYaQIo",
+      "youtubeId": "zns53qYaQIo",
+      "title": "Salaam-E-Ishq (Full Song) Film - Salaam-E-Ishq",
+      "artist": "T-Series"
+    },
+    {
+      "id": "G0_9WDnB-hs",
+      "youtubeId": "G0_9WDnB-hs",
+      "title": "Mehandi Rang Layi [Full Song] Chal Mere Bhai",
+      "artist": "T-Series"
+    },
+    {
+      "id": "Kr8-vJpCHr0",
+      "youtubeId": "Kr8-vJpCHr0",
+      "title": "Saajan Saajan Teri Dulhan - Aarzoo (1999)",
+      "artist": "Jivan Pyaar"
+    },
+    {
+      "id": "HtVKHFjpfqY",
+      "youtubeId": "HtVKHFjpfqY",
+      "title": "Dewana Kar Raha Hai Tera Roop Sunehra",
+      "artist": "Dangerous Baadsha"
+    },
+    {
+      "id": "-7_MyOao-eE",
+      "youtubeId": "-7_MyOao-eE",
+      "title": "Tu Hi Haqeeqat Lyric Video - Tum Mile|Emraan Hashmi,Soha Ali Khan|Pritam|Javed Ali|Shadab",
+      "artist": "Sony Music India"
+    },
+    {
+      "id": "LWna8JKjfiQ",
+      "youtubeId": "LWna8JKjfiQ",
+      "title": "Aaj Phir Full Video Song | Hate Story 2 | Arijit Singh | Jay Bhanushali | Surveen Chawla",
+      "artist": "T-Series"
+    },
+    {
+      "id": "iEJPDYrLtsI",
+      "youtubeId": "iEJPDYrLtsI",
+      "title": "Ishq Shava | Full Song | Jab Tak Hai Jaan | Shah Rukh Khan, Katrina | A R Rahman, Gulzar, Shilpa Rao",
+      "artist": "YRF"
+    },
+    {
+      "id": "C8kSrkz8Hz8",
+      "youtubeId": "C8kSrkz8Hz8",
+      "title": "Kamli Song | Dhoom:3 | Katrina Kaif,  Aamir Khan | Sunidhi Chauhan | Pritam | Amitabh Bhattacharya",
+      "artist": "YRF"
+    },
+    {
+      "id": "VAt6TO2gdko",
+      "youtubeId": "VAt6TO2gdko",
+      "title": "Saans Song | Jab Tak Hai Jaan | Shah Rukh Khan, Katrina Kaif | A R Rahman, Gulzar | Shreya, Mohit",
+      "artist": "YRF"
+    },
+    {
+      "id": "nFapDakYV3E",
+      "youtubeId": "nFapDakYV3E",
+      "title": "Long Drive full video song hd",
+      "artist": "Baibhav Singh"
+    },
+    {
+      "id": "ohD6Y3LA25s",
+      "youtubeId": "ohD6Y3LA25s",
+      "title": "Multani Kangan - HD Audio",
+      "artist": "Ketan Gupta"
+    },
+    {
+      "id": "3WX4ev7QZx0",
+      "youtubeId": "3WX4ev7QZx0",
+      "title": "Janam Janam Jo Saath [Full Video Song] (HQ) With Lyrics - Raja Bhaiya",
+      "artist": "thebollysongs2"
+    },
+    {
+      "id": "4SbMnZJ5OK8",
+      "youtubeId": "4SbMnZJ5OK8",
+      "title": "Mubarakan Title Song (Video) | Anil Kapoor | Arjun Kapoor | Ileana D’Cruz | Athiya Shetty | Badshah",
+      "artist": "T-Series"
+    },
+    {
+      "id": "VT5-uX09ZVY",
+      "youtubeId": "VT5-uX09ZVY",
+      "title": "Pyaara Bhaiya Mera | Preity Zinta | Kya Kehna | Alka Yagnik, Kumar Sanu | Raksha Bandhan |Hindi Song",
+      "artist": "Tips Official"
+    },
+    {
+      "id": "Ax4KEQZwIDY",
+      "youtubeId": "Ax4KEQZwIDY",
+      "title": "Meri Neend Jaane Lagi Hai - Chal Mere Bhai",
+      "artist": "Sahana Sharma"
+    }
   ]
 }

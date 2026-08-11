@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="HelloThere — nostalgia stations for bus rides, saloon cuts, and festive evenings."
+      content="HelloThere — nostalgia stations for bus rides, saloon cuts, Chhath evenings, gym grind, and baarat nights."
     />
     <title>HelloThere | Nostalgia Stations</title>
   </head>
   <body class="relative min-h-dvh overflow-hidden bg-zinc-950 font-sans text-white antialiased select-none">
     <!-- ===== HUB ===== -->
     <section id="hub-view" class="relative z-10 flex min-h-dvh flex-col px-6 py-8 sm:px-10">
-      <header class="mx-auto flex w-full max-w-5xl items-end justify-between gap-4">
+      <header class="mx-auto flex w-full max-w-6xl items-end justify-between gap-4">
         <div>
           <p class="text-xs font-semibold uppercase tracking-[0.25em] text-white/50">HelloThere</p>
           <h1 class="mt-2 text-4xl font-black tracking-tight sm:text-5xl">Nostalgia Stations</h1>
@@ -23,7 +23,7 @@
         </div>
       </header>
 
-      <div id="hub-cards" class="mx-auto mt-10 grid w-full max-w-5xl flex-1 gap-5 sm:grid-cols-3"></div>
+      <div id="hub-cards" class="mx-auto mt-10 grid w-full max-w-6xl flex-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
     </section>
 
     <!-- ===== ROOM ===== -->
@@ -31,6 +31,15 @@
       <div class="hero-bg absolute inset-0 z-0" aria-hidden="true">
         <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/45"></div>
         <div class="pointer-events-none absolute inset-0 bg-black/15"></div>
+      </div>
+      <!-- Ambient floating particles (infinite) -->
+      <div class="ambient-layer pointer-events-none absolute inset-0 z-[1]" aria-hidden="true">
+        <span class="ambient-dot d1"></span>
+        <span class="ambient-dot d2"></span>
+        <span class="ambient-dot d3"></span>
+        <span class="ambient-dot d4"></span>
+        <span class="ambient-dot d5"></span>
+        <span class="ambient-dot d6"></span>
       </div>
 
       <div class="relative z-10 flex h-full min-h-dvh flex-col justify-between p-5 sm:p-6">

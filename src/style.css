@@ -80,12 +80,32 @@ body:has(#hub-view:not(.hidden)) {
   height: 12rem;
   object-fit: cover;
   object-position: center;
-  transform: scale(1.02);
+  transform: scale(1.08);
+  animation: card-drift 18s ease-in-out infinite alternate;
   transition: transform 0.45s ease;
 }
 
 .hub-card:hover .hub-card-media img {
-  transform: scale(1.06);
+  animation-play-state: paused;
+  transform: scale(1.12);
+}
+
+@keyframes card-drift {
+  0% {
+    object-position: 35% 40%;
+    transform: scale(1.08);
+  }
+  100% {
+    object-position: 65% 55%;
+    transform: scale(1.14);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hub-card-media img {
+    animation: none;
+    transform: scale(1.02);
+  }
 }
 
 .hub-card-media::after {
@@ -96,16 +116,89 @@ body:has(#hub-view:not(.hidden)) {
   pointer-events: none;
 }
 
-/* Full-bleed room hero — same treatment as saloon.wtf */
+/* Full-bleed room hero — Ken Burns infinite drift */
 .hero-bg {
   background-color: #000;
   background-image: image-set(
     var(--room-bg) type('image/webp'),
     var(--room-bg-fallback) type('image/jpeg')
   );
-  background-size: cover;
+  background-size: 112%;
   background-position: center;
   background-repeat: no-repeat;
+  animation: kenburns 28s ease-in-out infinite alternate;
+  will-change: transform, background-position;
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1);
+    background-position: 40% 45%;
+  }
+  100% {
+    transform: scale(1.08);
+    background-position: 60% 55%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg {
+    animation: none;
+    background-size: cover;
+    transform: none;
+  }
+}
+
+/* Floating ambient particles */
+.ambient-layer {
+  overflow: hidden;
+}
+
+.ambient-dot {
+  position: absolute;
+  bottom: -10%;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--theme-accent) 55%, white);
+  opacity: 0.35;
+  filter: blur(0.5px);
+  animation: float-up 14s linear infinite;
+}
+
+.ambient-dot.d1 { left: 12%; animation-duration: 16s; animation-delay: 0s; width: 5px; height: 5px; }
+.ambient-dot.d2 { left: 28%; animation-duration: 19s; animation-delay: -4s; width: 7px; height: 7px; opacity: 0.25; }
+.ambient-dot.d3 { left: 46%; animation-duration: 13s; animation-delay: -8s; width: 4px; height: 4px; }
+.ambient-dot.d4 { left: 62%; animation-duration: 21s; animation-delay: -2s; width: 8px; height: 8px; opacity: 0.2; }
+.ambient-dot.d5 { left: 78%; animation-duration: 15s; animation-delay: -6s; width: 5px; height: 5px; }
+.ambient-dot.d6 { left: 88%; animation-duration: 18s; animation-delay: -10s; width: 6px; height: 6px; opacity: 0.3; }
+
+@keyframes float-up {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.25;
+  }
+  100% {
+    transform: translate3d(24px, -110vh, 0) scale(0.6);
+    opacity: 0;
+  }
+}
+
+body[data-theme="gym"] .ambient-dot {
+  box-shadow: 0 0 12px color-mix(in oklab, var(--theme-accent) 60%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-dot {
+    animation: none;
+    display: none;
+  }
 }
 
 .hub-card-body {
@@ -196,6 +289,56 @@ body[data-theme="chat-puja"] .room-title {
   letter-spacing: 0.04em;
   text-transform: none;
   color: #ffe4e6;
+}
+
+body[data-theme="gym"] .room-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.04em;
+  color: #e0f2fe;
+  animation: title-pulse 3.5s ease-in-out infinite;
+}
+
+body[data-theme="baarat"] .room-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: #fce7f3;
+  animation: baarat-glow 2.8s ease-in-out infinite;
+}
+
+@keyframes baarat-glow {
+  0%,
+  100% {
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.65);
+  }
+  50% {
+    text-shadow:
+      0 8px 24px rgba(0, 0, 0, 0.65),
+      0 0 22px color-mix(in oklab, var(--theme-accent) 55%, transparent),
+      0 0 48px color-mix(in oklab, #fbbf24 35%, transparent);
+  }
+}
+
+@keyframes title-pulse {
+  0%,
+  100% {
+    opacity: 0.92;
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.65);
+  }
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 8px 24px rgba(0, 0, 0, 0.65),
+      0 0 28px color-mix(in oklab, var(--theme-accent) 45%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-theme="gym"] .room-title,
+  body[data-theme="baarat"] .room-title {
+    animation: none;
+  }
 }
 
 code {
